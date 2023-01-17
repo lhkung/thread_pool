@@ -4,7 +4,7 @@
 #include <list>
 #include <vector>
 
-namespace PennCloud::Utils {
+namespace Utils {
 
 // To use this thread pool, create a thread function that suits your need.
 // Then, create a subclass that inherits from Task
@@ -38,6 +38,6 @@ class ThreadPool {
     std::vector<pthread_t> thread_array_;
 };
 
-} // namespace PennCloud::Utils
+} // namespace Utils
 
 #endif
